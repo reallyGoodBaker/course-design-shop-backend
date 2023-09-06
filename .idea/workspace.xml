@@ -9,91 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759f2e14-28cd-4a52-b0f7-7638b0450680" name="更改" comment="init">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/AdminEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/CustomerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/DealEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/GoodsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/ConfigProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/DataSourceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/DatabaseProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/InitializeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/QueryResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/AdminResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/CustomerResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/DealResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/Dispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/GoodsResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/ShoppingResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/StaticResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/UserResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/DealService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/ShoppingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/ClassUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/BasicEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/EntityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Field.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/FieldTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Prop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/injectable/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/injectable/annotation/Identifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/injectable/annotation/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/Resolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Args.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Resolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/public/icon/Segoe-Fluent-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/public/icon/icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/App.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Admin.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Content.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Deal.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Goods.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Login.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Nav.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Search.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Shopping.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/listener.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/navigates.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/navigator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/network.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/tool.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/vite-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/svelte.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/vite.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/web/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="759f2e14-28cd-4a52-b0f7-7638b0450680" name="更改" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -297,8 +213,25 @@
       <workItem from="1693318260466" duration="56000" />
       <workItem from="1694002751063" duration="547000" />
       <workItem from="1694003367161" duration="216000" />
-      <workItem from="1694013442519" duration="325000" />
+      <workItem from="1694013442519" duration="886000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1694013927965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694013927965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1694014322451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694014322451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
