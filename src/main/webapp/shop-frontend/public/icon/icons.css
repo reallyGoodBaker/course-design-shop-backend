@@ -1,0 +1,8 @@
+@font-face {
+    font-family: fluent;
+    src: url("./Segoe-Fluent-Icons.ttf") format('truetype');
+}
+
+.icon {
+    font-family: fluent;
+}

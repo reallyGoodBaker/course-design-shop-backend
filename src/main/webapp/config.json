@@ -1,0 +1,32 @@
+{
+  "database": {
+    "jdbcDriver": "com.mysql.cj.jdbc.Driver",
+    "jdbcUrl": "jdbc:mysql://localhost:3306",
+    "username": "root",
+    "password": "Qwe123456",
+    "databaseName": "shop"
+  },
+  "root": "top.rgb39.shop",
+  "entities": [
+    "entities.AdminEntity",
+    "entities.CustomerEntity",
+    "entities.DealEntity",
+    "entities.GoodsEntity"
+  ],
+  "injectables": [
+    "providers.DatabaseProvider",
+    "providers.ConfigProvider",
+    "providers.DataSourceProvider",
+    "services.AdminService",
+    "services.CustomerService",
+    "services.GoodsService",
+    "services.DealService",
+    "services.ShoppingService",
+    "resolvers.AdminResolver",
+    "resolvers.GoodsResolver",
+    "resolvers.UserResolver",
+    "resolvers.CustomerResolver",
+    "resolvers.ShoppingResolver",
+    "resolvers.DealResolver"
+  ]
+}

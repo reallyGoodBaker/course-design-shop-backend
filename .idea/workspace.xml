@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shop:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="759f2e14-28cd-4a52-b0f7-7638b0450680" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/AdminEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/CustomerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/DealEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/entities/GoodsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/ConfigProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/DataSourceProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/DatabaseProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/InitializeProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/providers/QueryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/AdminResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/CustomerResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/DealResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/Dispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/GoodsResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/ShoppingResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/StaticResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/resolvers/UserResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/DealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/services/ShoppingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/ClassUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/BasicEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/EntityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/FieldTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Prop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/entity/annotation/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/injectable/Injector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/injectable/annotation/Identifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/injectable/annotation/Inject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/Resolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Args.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Resolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/rgb39/shop/tools/resolver/annotation/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/public/icon/Segoe-Fluent-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/public/icon/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/App.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Admin.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Content.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Deal.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Goods.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Login.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Nav.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Search.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/components/Shopping.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/listener.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/navigates.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/navigator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/network.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/lib/tool.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/svelte.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shop-frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2RCVKmGERQybH8FtSTygPo7YkUv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Projects/course-design/shop/shop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\course-design\shop\shop\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.7" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="17">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 -Duser.language=en" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="shop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a24a2d5d-8918-4523-8559-5dcf3d257992" />
+        <option name="HTTP_PORT" value="3939" />
+        <option name="JNDI_PORT" value="1100" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="759f2e14-28cd-4a52-b0f7-7638b0450680" name="更改" comment="" />
+      <created>1686753992412</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686753992412</updated>
+      <workItem from="1686753993680" duration="4214000" />
+      <workItem from="1686792930648" duration="7439000" />
+      <workItem from="1686800406966" duration="4114000" />
+      <workItem from="1686805162057" duration="314000" />
+      <workItem from="1686805487815" duration="90000" />
+      <workItem from="1686805590479" duration="2825000" />
+      <workItem from="1686808435069" duration="1042000" />
+      <workItem from="1686809493758" duration="29885000" />
+      <workItem from="1686877577699" duration="10436000" />
+      <workItem from="1686904984232" duration="8321000" />
+      <workItem from="1686913338745" duration="16853000" />
+      <workItem from="1686970865150" duration="10511000" />
+      <workItem from="1687071955443" duration="651000" />
+      <workItem from="1687097633877" duration="700000" />
+      <workItem from="1687137335837" duration="29500000" />
+      <workItem from="1687239568351" duration="22548000" />
+      <workItem from="1687316778307" duration="9030000" />
+      <workItem from="1687392125731" duration="8762000" />
+      <workItem from="1687485523789" duration="64000" />
+      <workItem from="1687485623910" duration="22154000" />
+      <workItem from="1687573221043" duration="9042000" />
+      <workItem from="1687609622542" duration="968000" />
+      <workItem from="1687655609545" duration="1282000" />
+      <workItem from="1687675800093" duration="864000" />
+      <workItem from="1687696889994" duration="595000" />
+      <workItem from="1687735150936" duration="10606000" />
+      <workItem from="1687784551646" duration="5113000" />
+      <workItem from="1687839051935" duration="599000" />
+      <workItem from="1687940448317" duration="1848000" />
+      <workItem from="1688090771596" duration="583000" />
+      <workItem from="1688091365753" duration="7588000" />
+      <workItem from="1693318260466" duration="56000" />
+      <workItem from="1694002751063" duration="547000" />
+      <workItem from="1694003367161" duration="216000" />
+      <workItem from="1694013442519" duration="325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
